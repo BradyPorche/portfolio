@@ -1,0 +1,46 @@
+header {
+  font-family: 'Josefin Sans', sans-serif;
+  height: 20px;
+  width: 100%;
+  position: fixed;
+  margin-top: -20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+#mainlogo {
+  font-size: 22px;
+  margin-left: 25px;
+}
+
+@media only screen and (max-width: 750px) {
+  #mainlogo {
+    font-size: 36px;
+    text-align: center;
+  }
+}
+
+#mainnav {
+  text-decoration: none;
+  float: right;
+  margin-top: -67px;
+  font-size: 22px;
+  margin-right: 25px;
+}
+
+@media only screen and (max-width: 750px) {
+  #mainnav {
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: -20px;
+    margin-right: 127px;
+  }
+}
+/*end of top navigation*/
